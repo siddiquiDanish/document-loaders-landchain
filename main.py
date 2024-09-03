@@ -30,4 +30,6 @@ def answer_question_about(person_name, question):
 
     print(result.content)
 
-answer_question_about("John F. Kennedy","When was he born?")
+topic = input("Enter topic for wiki search :")
+que = input("Enter your question :")
+answer_question_about(topic,que)
